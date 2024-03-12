@@ -846,6 +846,7 @@ body {
 
 .noticias {
   overflow: hidden;
+  display: none;
   margin-left: 150px;
 }
 
