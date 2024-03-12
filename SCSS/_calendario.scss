@@ -8,7 +8,7 @@
     span:nth-child(even){
         margin-top: 100px;
         overflow: hidden;
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 720px){
             margin-top: 0;
         }
     }

@@ -602,7 +602,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .calendario span:nth-child(even) {
     margin-top: 0;
   }
