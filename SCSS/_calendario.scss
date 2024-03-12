@@ -1,0 +1,52 @@
+.calendario{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 250px;
+    span:nth-child(even){
+        margin-top: 100px;
+        overflow: hidden;
+        @media screen and (max-width: 400px){
+            margin-top: 0;
+        }
+    }
+    @media screen and (max-width: 400px){
+        overflow: hidden;
+        margin-bottom: 90px;
+        span:nth-child(2){
+            margin-top: 75px;
+        }
+        span:nth-child(3){
+            margin-top: -75px;
+        }
+        gap: -5px;
+    }
+    .bannerDatas{
+        max-width: 100%;
+        display: flex;
+        overflow: hidden;
+        padding-top: 80px;
+        @media screen and (max-width: 400px){
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
+            overflow: hidden;
+        }
+        span{
+            a{
+                @media screen and (max-width: 400px){  
+                }
+
+                img{
+                    margin: 0;
+                    @media screen and (max-width: 400px){
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+

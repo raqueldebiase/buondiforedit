@@ -1,0 +1,61 @@
+.valores {
+    margin: 0 0 0px 150px;
+    overflow: hidden;
+    @media screen and (max-width: 400px){
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 18px;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+    h3{
+        font-size: 54px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(255, 255, 255);
+        @media screen and (max-width: 400px){
+            font-size: 39px;
+        }
+    }
+    .h3Bold{
+        font-weight: 600;
+    }
+    p{
+        margin: 44px 0 75px 0 ;
+        font-family: "Poppins", sans-serif;
+        color: rgb(241, 241, 241);
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 600px;
+        @media screen and (max-width: 400px){
+            font-size: 13px;
+        }
+    }
+    .cartazesValores{
+        
+        @media screen and (max-width: 400px){
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-padding-left: 40px;
+            padding: 20px 0px 0px 40px;
+            display: grid;
+            width: 100%;
+            grid-auto-flow: column;
+            gap: 10px;
+            .pop-icon {
+                scroll-snap-align: start;
+            }
+        }
+
+    }
+    // .cartazesValores{
+    //     margin-left: -20px;
+    //     overflow: hidden;
+    //     @media screen and (max-width: 400px){
+            
+    //     }
+    // }
+}
+
+
+

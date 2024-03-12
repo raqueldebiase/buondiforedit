@@ -1,0 +1,161 @@
+.lineUp{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-bottom: 150px;
+    @media screen and (max-width: 400px){
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        overflow: hidden;
+    }
+    .tituloLineUp{
+        height: 100%;
+        h4{
+            font-size: 42px;
+            font-family: "Poppins", sans-serif;
+            line-height: 50%;
+            color: #ffffff; 
+            padding: 40px; 
+            @media screen and (max-width: 400px){
+                font-size: 42px;
+
+            }
+        }
+    }
+    .agendaLineUp{
+        display: flex;
+        gap: 26px;
+        text-align: center;
+
+        @media screen and (max-width: 400px){
+            display: grid;
+            grid-template-columns: 1fr;
+            overflow: hidden;
+            .todosMenor {
+                display: none;
+            }
+            .todosMaior{
+                display: block;
+                margin: auto;
+            }
+
+        }
+        .soOsDias {
+            display: flex;
+            gap: 40px;
+            @media screen and (max-width: 400px){
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 40px;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+    }
+    .listaDosArtistas {
+        height: 100%;
+        width: 100%;
+        @media screen and (max-width: 400px){
+           max-width: 100%;
+           display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        #desporto{
+            h4{
+                @media screen and (max-width: 400px){
+                    font-size: 32px;
+                }
+            }
+            small {
+                @media screen and (max-width: 400px){
+                    font-size: 40px;
+                }
+            }
+        }
+        #musica{
+            h3{
+                font-size: 20px;
+            }
+            h4{
+                @media screen and (max-width: 400px){
+                    font-size: 32px;
+                }
+            }
+            small {
+                @media screen and (max-width: 400px){
+                    font-size: 40px;
+                }
+            }
+        }
+        #musica2{
+            h4{
+                @media screen and (max-width: 400px){
+                    font-size: 32px;
+                }
+            }
+            small {
+                @media screen and (max-width: 400px){
+                    font-size: 40px;
+                }
+            }
+        }
+        .artistas{
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            display: grid;
+            place-items: center;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+            padding: 150px 0 15px 0;
+            opacity: 0;
+            transform: translate3d(0,-100px,0);
+            transition: .8s;
+            @media screen and (max-width: 400px){
+                width: 100%;
+                display: grid;
+                place-items: center;
+            }
+
+            h4{
+                font-size: 48px;
+                padding-bottom: 30px;
+            }
+            h2{
+                font-size: 87px;
+                font-weight: 800;
+                @media screen and (max-width: 400px){
+                    font-size: 43px;
+                }
+            }
+            small {
+                font-size: 67px;
+            }
+        }
+    }
+}
+
+.dia10{
+    display: none;
+}
+
+.mostrarDia10{
+    display: flex;
+}
+
+.todosMaior {
+    display: none;
+}
+
+.artistaStart {
+    opacity: 1 !important;
+    transform: translate3d(0,0,0)!important;
+}

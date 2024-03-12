@@ -1,0 +1,36 @@
+.bannerEspaco {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 200px;
+    @media screen and (max-width: 400px){
+        margin-top: 300px; 
+        width: 100%;
+        display: initial;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+    }
+    .bannerPre{
+        width: 100%;
+        height: 450px;
+        // background-image:url(/imagens/espaço/espacoCons.svg);
+        background-image: url(/imagens/espaco/espacoCons.svg);
+        background-size: 100% auto;     
+        @media screen and (max-width: 400px){
+            height: 230px;
+        }  
+    }
+
+    .bannerCon{
+        width: 100%;
+        height: 450px;
+        background-image: url(/imagens/espaco/presspause.svg);
+        background-size: 100% auto;  
+        @media screen and (max-width: 400px){
+            height: 230px;
+        }   
+    }
+}

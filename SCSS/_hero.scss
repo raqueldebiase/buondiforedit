@@ -1,0 +1,86 @@
+.bannerPrincipal {
+    .tituloEsociais{
+        max-width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 95% 3%;
+        place-items: center;
+        overflow: hidden;
+        @media screen and (max-width: 400px){
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        }
+
+        .vertical {
+            margin: 80px 310px 0px 160px;
+            max-width: 100%;
+            @media screen and (max-width: 400px){
+                max-width: 100%;
+                margin: 40px 40px 40px 40px;
+            
+            }
+            span{
+                width: 100%;
+                margin: auto;
+                h1{
+                    font-size: 87px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 800;
+                    line-height: 139px;
+                    color: #ffffff;
+                    margin-top: 38px;
+                    @media screen and (max-width: 400px){
+                        font-size: 48px;
+                        text-align: center;
+                        line-height: 60px;
+                    }
+                }
+            }
+        }
+        .horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            @media screen and (max-width: 400px){
+                display: none;
+            }
+            .sociaisHero {
+                
+                a{
+                    img{
+                        padding-bottom: 20px;
+                    }
+                }
+            }  
+        }
+        .followUs{
+            max-width: 100%;
+
+        }
+    }
+}
+.botao {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .botaoBilhete {
+        display: grid;
+        place-items: center;
+        width: 228px;
+        height: 47px;
+        border-radius: 41px;
+        font-family: "Poppins", sans-serif;
+        font-weight: medium;
+        line-height: 15px;
+        border:2px solid #ffffff;
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 70px;
+    }
+}
+.botaoScroll {
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,71 @@
+.dia10{
+    margin-left: 180px;
+    padding-bottom: 100px;
+    .tituloSobreFestival{
+        font-size: 54px;
+        color: #faf8f8;
+        line-height: 139.5px;
+        font-family: "Poppins", sans-serif;
+    }
+    .gridInfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .onde{
+            max-width: 250px;
+            img{
+                margin-bottom: 20px;
+            }
+            h6{
+                font-size: 30px;
+                color: #ffffff;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+                margin-bottom: 20px;
+            }
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 17px;
+                color: #ffffff;
+            }
+        }
+        .quando{
+            max-width: 250px;
+            img {
+                margin-bottom: 20px;
+            }
+            h6{
+                font-size: 30px;
+                color: #fcfcfc;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+                margin-bottom: 20px;
+            }
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 17px;
+                color: #fafafa;
+            }
+        }
+        .artistas{
+            max-width: 250px;
+            h4 {
+                color: #ffffff;
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+            h6{
+                font-size: 30px;
+                color: #ffffff;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+                margin-bottom: 20px;
+            }
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 17px;
+                color: #ffffff;
+            }
+        }
+    }
+        
+}
