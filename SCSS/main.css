@@ -631,7 +631,7 @@ body {
   padding-top: 80px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .calendario .bannerDatas {
     display: -ms-grid;
     display: grid;
@@ -646,7 +646,7 @@ body {
   margin: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .calendario .bannerDatas span a img {
     width: 100%;
   }
