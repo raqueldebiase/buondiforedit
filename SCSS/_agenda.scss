@@ -4,7 +4,7 @@
     justify-content: center;
     margin-bottom: 120px;
     overflow: hidden;
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 720px){
         max-width: 100%;
         display: flex;
         overflow: hidden;
@@ -12,13 +12,13 @@
         background-color: purple;
     }
     div{
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 720px){
             display: inline-flex;
             overflow: hidden;
         }
         a{
             img{
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 720px){
                     width: 100%;
                     display: grid;
                     grid-template-columns: 1fr;

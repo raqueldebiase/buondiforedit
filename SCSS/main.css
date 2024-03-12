@@ -685,7 +685,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .agenda {
     max-width: 100%;
     display: -webkit-box;
@@ -697,7 +697,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .agenda div {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -706,7 +706,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .agenda div a img {
     width: 100%;
     display: -ms-grid;
