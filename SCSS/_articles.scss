@@ -18,6 +18,17 @@
 
         }
     }
+    .div-noticias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        .div-noticias-content-1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
     .artGrid{
         display: grid;
         grid-template-columns: 35% 25% 30%;
