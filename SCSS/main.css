@@ -846,6 +846,7 @@ body {
 
 .noticias {
   overflow: hidden;
+  margin-left: 150px;
 }
 
 .noticias div h3 {
@@ -874,7 +875,6 @@ body {
   display: grid;
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
-  padding: 0px 80px;
 }
 
 .noticias .div-noticias .div-noticias-content-1 {
