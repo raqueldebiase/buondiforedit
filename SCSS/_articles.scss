@@ -20,13 +20,15 @@
     }
     .div-noticias {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: #fff;
+        
         .div-noticias-content-1{
             display: flex;
-            flex-wrap: wrap;
+            background-color: #fff;
+            .imagem {
+                height: 100%;
+            }
             .content {
                 h5 {
                     color: red;
@@ -61,124 +63,116 @@
                 }
             }
         }
-    }
-    .artGrid{
-        display: grid;
-        grid-template-columns: 35% 25% 30%;
-        padding: 80px;
-        margin-left: 80px;
-        overflow: hidden;
-        @media screen and (max-width: 720px){
-            display: grid;
-            grid-template-columns: 1fr; 
-            margin: 0 0 40px 0;
-            padding: 10px;
-            overflow: hidden;
-        }
-        .quadrado2{
-            background-color: white;
-            padding: 35px 60px 0 15px;
-            width: 305px;
-            @media screen and (max-width: 400px){
-                width: 360px;
-                height: 100%;
-                padding: 0;
-            }
-            h5 {
-                color: red;
-                font-family: "Poppins", sans-serif;
-                font-size: 12px;
-                @media screen and (max-width: 400px){
-                    padding: 20px;
+        .div-noticias-content-2 {
+            .artGrid{
+                display: grid;
+                overflow: hidden;
+                @media screen and (max-width: 720px){
+                    display: grid;
+                    grid-template-columns: 1fr; 
+                    margin: 0 0 40px 0;
+                    padding: 10px;
+                    overflow: hidden;
                 }
-            }
-            h4{
-                font-size: 21px;
-                font-family: "Poppins", sans-serif;
-                line-height: 30px;
-                margin-top: 30px;
-                font-weight: 400px;
-                @media screen and (max-width: 400px){
-                    padding: 20px;
-                    margin-top: 0;
-                }
-            }
-            p{
-                font-family: "Poppins", sans-serif;
-                font-size: 14px;
-                color: #4e4e4e;
-                line-height: 20px;
-                margin-top: 30px;
-                @media screen and (max-width: 400px){
-                    margin-bottom: 20px;
-                    margin-top: 0px;
-                    padding: 20px;
-                }
-            }
-        }
-        .quadrado3{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            width: 300px;
-            height: 300px;
-            background-color: white;
-            margin-bottom: 40px;
-            @media screen and (max-width: 400px){
-                width: 360px;
-            }
+                .quadrado2{
+                    background-color: white;
+                    @media screen and (max-width: 400px){
 
-            .imagem{
-                width: 190px;
-                height: 171px;
-                background-image: url(/imagens/noticias/quadrado2.svg);
-                background-color: white;
-                @media screen and (max-width: 400px){
-                    width: 180px;
+                    }
+                    h5 {
+                        color: red;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 12px;
+                        @media screen and (max-width: 400px){
+                            padding: 20px;
+                        }
+                    }
+                    h4{
+                        font-size: 21px;
+                        font-family: "Poppins", sans-serif;
+                        line-height: 30px;
+                        margin-top: 30px;
+                        font-weight: 400px;
+                        @media screen and (max-width: 400px){
+                            padding: 20px;
+                            margin-top: 0;
+                        }
+                    }
+                    p{
+                        font-family: "Poppins", sans-serif;
+                        font-size: 14px;
+                        color: #4e4e4e;
+                        line-height: 20px;
+                        margin-top: 30px;
+                        @media screen and (max-width: 400px){
+                            margin-bottom: 20px;
+                            margin-top: 0px;
+                            padding: 20px;
+                        }
+                    }
                 }
-            }
-            .imagem2{
-                background-image: url(/imagens/noticias/quadrado3.svg);
-                width: 190px;
-                height: 171px;
-                background-color: white;
-                @media screen and (max-width: 400px){
-                    width: 180px;
+                .quadrado3{
+                    background-color: white;
+                    @media screen and (max-width: 400px){
+                        width: 360px;
+                    }
+        
+                    .imagem{
+                        width: 190px;
+                        height: 171px;
+                        background-image: url(/imagens/noticias/quadrado2.svg);
+                        background-color: white;
+                        @media screen and (max-width: 400px){
+                            width: 180px;
+                        }
+                    }
+                    .imagem2{
+                        background-image: url(/imagens/noticias/quadrado3.svg);
+                        width: 190px;
+                        height: 171px;
+                        background-color: white;
+                        @media screen and (max-width: 400px){
+                            width: 180px;
+                        }
+                    }
+                    .txt {
+                        width: 190px;
+                        height: 173px;
+                        margin-right: -14px;
+                        background-color: white;
+                        @media screen and (max-width: 400px){
+                            margin: 0;
+                            height: auto;
+                            width: 180px;
+                        }
+                        h5 {
+                            color: red;
+                            font-family: "Poppins", sans-serif;
+                            font-size: 12px;
+                            margin-top: 23px;
+                            margin-left: 14px;
+                        }
+                        h4{
+                            font-family: "Poppins", sans-serif;
+                            font-size: 15px;
+                            color: #4e4e4e;
+                            margin-top: 10px;
+                            margin-left: 14px;
+                        }
+                        p{
+                            font-family: "Poppins", sans-serif;
+                            font-size: 10px;
+                            color: #4e4e4e;
+                            margin-top: 13px;
+                            line-height: 15px;
+                            margin-left: 14px;
+                        }
+                    }
                 }
-            }
-            .txt {
-                width: 190px;
-                height: 173px;
-                margin-right: -14px;
-                background-color: white;
-                @media screen and (max-width: 400px){
-                    margin: 0;
-                    height: auto;
-                    width: 180px;
-                }
-                h5 {
-                    color: red;
-                    font-family: "Poppins", sans-serif;
-                    font-size: 12px;
-                    margin-top: 23px;
-                    margin-left: 14px;
-                }
-                h4{
-                    font-family: "Poppins", sans-serif;
-                    font-size: 15px;
-                    color: #4e4e4e;
-                    margin-top: 10px;
-                    margin-left: 14px;
-                }
-                p{
-                    font-family: "Poppins", sans-serif;
-                    font-size: 10px;
-                    color: #4e4e4e;
-                    margin-top: 13px;
-                    line-height: 15px;
-                    margin-left: 14px;
-                }
-            }
+            
         }
+    }
+    
     
     }
     .dirEsq {
