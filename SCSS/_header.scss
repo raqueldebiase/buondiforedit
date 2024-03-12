@@ -2,7 +2,7 @@ body {
     background-image: url(/imagens/BG/bg.png);
     background-size: cover;
     background-position: center center;
-    object-fit: cover;
+    
     @media screen and (max-width: 400px){
         background-repeat: no-repeat;
         background-size: auto 50%;
@@ -21,15 +21,16 @@ body {
     height: 100%;
     overflow: hidden;
     @media screen and (max-width: 720px){
-        padding: 20px !important;
+        padding: 20px;
+        @media screen and (max-width: 400px){
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 32px 0 0 24px;
+            grid-gap: 160px
+        }
     }
-    @media screen and (max-width: 400px){
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 32px 0 0 24px;
-        grid-gap: 160px
-    }
+    
     .logoBuondi {
         a{
             img{
@@ -91,7 +92,7 @@ body {
     .menuHamburguer{
         a{
             display: flex;
-            justify-content: right;
+            justify-content: flex-end;
             margin-right: 20px;
         }
         @media screen and (max-width: 400px){
