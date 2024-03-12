@@ -1,6 +1,9 @@
 .valores {
     margin: 0 0 0px 150px;
     overflow: hidden;
+    @media screen and (max-width: 720px){
+        margin: 70px 0 0 70px;
+    }
     @media screen and (max-width: 400px){
         display: flex;
         flex-wrap: wrap;
@@ -33,7 +36,7 @@
     }
     .cartazesValores{
         
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 720px){
             overflow-x: scroll;
             scroll-snap-type: x mandatory;
             scroll-padding-left: 40px;

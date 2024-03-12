@@ -777,6 +777,12 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width: 720px) {
+  .valores {
+    margin: 70px 0 0 70px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .valores {
     display: -webkit-box;
@@ -822,7 +828,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
   .valores .cartazesValores {
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
