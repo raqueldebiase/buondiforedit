@@ -27,6 +27,39 @@
         .div-noticias-content-1{
             display: flex;
             flex-wrap: wrap;
+            .content {
+                h5 {
+                    color: red;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 12px;
+                    @media screen and (max-width: 400px){
+                        padding: 20px;
+                    }
+                }
+                h4{
+                    font-size: 21px;
+                    font-family: "Poppins", sans-serif;
+                    line-height: 30px;
+                    margin-top: 30px;
+                    font-weight: 400px;
+                    @media screen and (max-width: 400px){
+                        padding: 20px;
+                        margin-top: 0;
+                    }
+                }
+                p{
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    color: #4e4e4e;
+                    line-height: 20px;
+                    margin-top: 30px;
+                    @media screen and (max-width: 400px){
+                        margin-bottom: 20px;
+                        margin-top: 0px;
+                        padding: 20px;
+                    }
+                }
+            }
         }
     }
     .artGrid{
@@ -41,17 +74,6 @@
             margin: 0 0 40px 0;
             padding: 10px;
             overflow: hidden;
-        }
-        
-        .quadrado1{
-            height: 346px;
-            width: 380px;
-            overflow: hidden;
-            background-image: url(/imagens/noticias/quadrado1.svg);
-            background-position: center;
-            @media screen and (max-width: 400px){
-                width: 360px;
-            }
         }
         .quadrado2{
             background-color: white;
