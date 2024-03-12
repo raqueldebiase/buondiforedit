@@ -1000,6 +1000,14 @@ body {
 
 .noticias .div-noticias .div-noticias-content-2 .artGrid .quadrado3 {
   background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  place-content: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 @media screen and (max-width: 400px) {
