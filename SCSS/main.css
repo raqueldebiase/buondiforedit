@@ -360,6 +360,12 @@ body {
   margin-bottom: 70px;
 }
 
+@media screen and (max-width: 720px) {
+  .botao .botaoBilhete {
+    margin: 70px 0px;
+  }
+}
+
 .botaoScroll {
   display: -ms-grid;
   display: grid;
@@ -368,11 +374,14 @@ body {
 }
 
 .lineUp {
-  height: 100%;
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   margin-bottom: 150px;
 }
@@ -477,6 +486,12 @@ body {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .lineUp .listaDosArtistas #desporto h4 {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .lineUp .listaDosArtistas #desporto h4 {
     font-size: 32px;
@@ -551,6 +566,12 @@ body {
 .lineUp .listaDosArtistas .artistas h2 {
   font-size: 87px;
   font-weight: 800;
+}
+
+@media screen and (max-width: 720px) {
+  .lineUp .listaDosArtistas .artistas h2 {
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 400px) {
