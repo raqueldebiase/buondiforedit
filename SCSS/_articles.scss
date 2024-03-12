@@ -1,7 +1,8 @@
 .noticias {
     overflow: hidden;
     margin-left: 150px;
-    div{
+    .titulo-noticias{
+        padding: 45px 0px;
         h3 {
         font-size: 54px;
         color: white;
@@ -20,15 +21,16 @@
         }
     }
     .div-noticias {
-        display: grid;
-        grid-template-columns: 60% 40%;
-        
-        
+        display: flex;
+        place-items: center;
+        padding: 0px 160px 45px 160px;
         .div-noticias-content-1{
             display: flex;
             background-color: #fff;
             .imagem {
-                height: 100%;
+                img{
+                    width: 100%;
+                }
             }
             .content {
                 h5 {
