@@ -86,8 +86,8 @@
         }
         img{
             margin-top: -80px;
-            @media screen and (max-width: 520px){
-                margin-top: -40px;
+            @media screen and (max-width: 540px){
+                margin-top: -30px;
             }
         }
         .iphone{
@@ -150,9 +150,10 @@
                         margin: 40px 10px 0 30px;
                         
                     } 
-                    @media screen and (max-width: 520px){
+                    @media screen and (max-width: 540px){
                         width: 300px;
                         margin-top: 40px;
+                        margin-left: 0px;
                         
                     } 
                 }
@@ -167,6 +168,7 @@
                     }
                     @media screen and (max-width: 540px){
                         margin-left: 0px;
+                        margin-top: 4px;
                     }
                     h6{
                         font-size: 12px;

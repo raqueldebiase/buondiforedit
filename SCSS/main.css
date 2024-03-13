@@ -1217,9 +1217,9 @@ body {
   margin-top: -80px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .app img {
-    margin-top: -40px;
+    margin-top: -30px;
   }
 }
 
@@ -1301,10 +1301,11 @@ body {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .newsletter .content form .email {
     width: 300px;
     margin-top: 40px;
+    margin-left: 0px;
   }
 }
 
@@ -1329,6 +1330,7 @@ body {
 @media screen and (max-width: 540px) {
   .bannerNewsletter .newsletter .content form .condicoes {
     margin-left: 0px;
+    margin-top: 4px;
   }
 }
 
