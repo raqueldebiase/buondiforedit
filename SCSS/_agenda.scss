@@ -11,6 +11,10 @@
         margin-bottom: 20px;
         background-color: purple;
     }
+    @media screen and (max-width: 370px){
+        margin-bottom: 36px;
+
+    }
     div{
         @media screen and (max-width: 720px){
             display: inline-flex;

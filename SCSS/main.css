@@ -611,6 +611,13 @@ body {
 .lineUp .listaDosArtistas .artistas h4 {
   font-size: 48px;
   padding-bottom: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .lineUp .listaDosArtistas .artistas h4 {
+    font-size: 36px;
+  }
 }
 
 .lineUp .listaDosArtistas .artistas h2 {
@@ -626,12 +633,18 @@ body {
 
 @media screen and (max-width: 620px) {
   .lineUp .listaDosArtistas .artistas h2 {
-    font-size: 43px;
+    font-size: 36px;
   }
 }
 
 .lineUp .listaDosArtistas .artistas small {
   font-size: 67px;
+}
+
+@media screen and (max-width: 620px) {
+  .lineUp .listaDosArtistas .artistas small {
+    font-size: 50px;
+  }
 }
 
 .dia10 {
@@ -744,6 +757,12 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     background-color: purple;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .agenda {
+    margin-bottom: 36px;
   }
 }
 
