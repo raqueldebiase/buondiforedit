@@ -16,6 +16,11 @@
         .vertical {
             margin: 80px 310px 0px 160px;
             max-width: 100%;
+            @media screen and (max-width: 540px){
+                width: 70%;
+                margin: 0px 130px;
+            
+            }
             @media screen and (max-width: 400px){
                 max-width: 100%;
                 margin: 40px 40px 40px 40px;

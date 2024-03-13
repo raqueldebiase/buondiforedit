@@ -293,6 +293,13 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 540px) {
+  .bannerPrincipal .tituloEsociais .vertical {
+    width: 70%;
+    margin: 0px 130px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .bannerPrincipal .tituloEsociais .vertical {
     max-width: 100%;
@@ -1090,10 +1097,10 @@ body {
   margin-top: 48px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .tituloNovidades h3 {
-    font-size: 32px;
-    margin-left: 10px;
+    font-size: 40px;
+    margin-left: 48px;
   }
 }
 
@@ -1121,6 +1128,7 @@ body {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+    margin-top: 60px;
   }
 }
 
@@ -1188,9 +1196,11 @@ body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .app .txtInstala .bold {
     font-size: 24px;
+    margin-top: 68px;
+    margin-left: 40px;
   }
 }
 
@@ -1211,9 +1221,9 @@ body {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .app .buttonStore {
-    margin: 40px 0 0 10px;
+    margin: 40px 0 68px 0px;
   }
 }
 
@@ -1347,9 +1357,9 @@ body {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .newsletter .buttonSubs {
-    margin-left: 120px;
+    margin-bottom: 68px;
   }
 }
 
