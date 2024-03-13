@@ -124,7 +124,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 620px) {
   .menu .menuPrincipal {
     display: none;
     overflow: hidden;
@@ -193,14 +193,14 @@ body {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 620px) {
   .menu .menuHamburguer {
     display: block;
     overflow: hidden;
   }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 621px) {
   .menu .menuHamburguer {
     display: none;
   }
