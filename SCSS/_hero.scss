@@ -23,8 +23,6 @@
             }
             @media screen and (max-width: 400px){
                 max-width: 100%;
-                margin: 40px 40px 40px 40px;
-            
             }
             span{
                 width: 100%;
@@ -37,6 +35,11 @@
                     color: #ffffff;
                     margin-top: 38px;
                     @media screen and (max-width: 620px){
+                        font-size: 60px;
+                        text-align: center;
+                        line-height: 75px;
+                    }
+                    @media screen and (max-width: 400px){
                         font-size: 60px;
                         text-align: center;
                         line-height: 75px;

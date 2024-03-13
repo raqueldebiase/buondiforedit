@@ -316,7 +316,6 @@ body {
 @media screen and (max-width: 400px) {
   .bannerPrincipal .tituloEsociais .vertical {
     max-width: 100%;
-    margin: 40px 40px 40px 40px;
   }
 }
 
@@ -335,6 +334,14 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+  .bannerPrincipal .tituloEsociais .vertical span h1 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .bannerPrincipal .tituloEsociais .vertical span h1 {
     font-size: 60px;
     text-align: center;
