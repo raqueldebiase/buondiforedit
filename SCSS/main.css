@@ -1270,7 +1270,7 @@ body {
 
 @media screen and (max-width: 540px) {
   .bannerNewsletter .newsletter .bold {
-    margin: 80px 0 0 30px;
+    margin-top: 80px;
     font-size: 24px;
     width: 100%;
   }
