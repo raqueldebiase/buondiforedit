@@ -1318,6 +1318,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  padding-right: 48px;
 }
 
 .bannerNewsletter .newsletter .buttonSubs a {
