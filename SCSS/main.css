@@ -1733,10 +1733,96 @@ footer p {
   background-image: url(/imagens/BG/bg_cartaz.png);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
   .bodyCartaz .bgHeaderLineUp .menuHamburguer {
-    margin-right: 10px;
+    padding-right: 8px;
   }
+}
+
+.bodyCartaz .bgHeaderLineUp .menuHamburguer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (min-width: 400px) {
+  .bodyCartaz .bgHeaderLineUp .menuHamburguer a img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .bodyCartaz .bgHeaderLineUp .menuHamburguer {
+    display: block;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 621px) {
+  .bodyCartaz .bgHeaderLineUp .menuHamburguer {
+    display: none;
+  }
+}
+
+.bodyCartaz .bgHeaderLineUp .menuHamburguer .menuDisplayNone {
+  display: none;
+  width: 375px;
+  height: 697px;
+  overflow: hidden;
+}
+
+.bodyCartaz .bgHeaderLineUp .menuHamburguer .menuDisplayNone .pt {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bodyCartaz .listaDisplayNone {
+  overflow: hidden;
+  font-size: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.bodyCartaz .listaDisplayNone ul li .cartaz-link {
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.bodyCartaz .listaDisplayNone a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
+
+.bodyCartaz .listaDisplayNone a ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .bodyCartaz .bannerPrincipal {
@@ -2029,8 +2115,6 @@ footer p {
 
 @media screen and (max-width: 400px) {
   .bodyCartaz .spotify {
-    padding-left: 20px;
-    padding-right: 20px;
     margin: 0;
   }
 }
