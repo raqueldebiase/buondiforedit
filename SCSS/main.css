@@ -850,7 +850,6 @@ body {
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
     scroll-padding-left: 40px;
-    padding: 20px 0px 0px 40px;
     display: -ms-grid;
     display: grid;
     width: 100%;
@@ -868,7 +867,6 @@ body {
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
     scroll-padding-left: 40px;
-    padding: 20px 0px 0px 40px;
     display: -ms-grid;
     display: grid;
     width: 100%;
