@@ -524,6 +524,10 @@ body {
   }
 }
 
+.lineUp .listaDosArtistas #desporto {
+  text-align: center;
+}
+
 @media screen and (max-width: 720px) {
   .lineUp .listaDosArtistas #desporto h4 {
     font-size: 40px;
@@ -542,6 +546,10 @@ body {
   }
 }
 
+.lineUp .listaDosArtistas #musica {
+  text-align: center;
+}
+
 .lineUp .listaDosArtistas #musica h3 {
   font-size: 20px;
 }
@@ -556,6 +564,10 @@ body {
   .lineUp .listaDosArtistas #musica small {
     font-size: 40px;
   }
+}
+
+.lineUp .listaDosArtistas #musica2 {
+  text-align: center;
 }
 
 @media screen and (max-width: 620px) {

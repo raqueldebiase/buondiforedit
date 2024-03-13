@@ -68,6 +68,7 @@
         
         }
         #desporto{
+            text-align: center;
             h4{
                 @media screen and (max-width: 720px){
                     font-size: 40px;
@@ -83,6 +84,7 @@
             }
         }
         #musica{
+            text-align: center;
             h3{
                 font-size: 20px;
             }
@@ -98,6 +100,7 @@
             }
         }
         #musica2{
+            text-align: center;
             h4{
                 @media screen and (max-width: 620px){
                     font-size: 32px;
