@@ -1979,6 +1979,13 @@ footer p {
   padding: 80px 0px;
 }
 
+@media screen and (max-width: 400px) {
+  .bodyCartaz .artistas h4 {
+    padding: 40px 0;
+    font-size: 32px;
+  }
+}
+
 .bodyCartaz .artistas .slideArtistas {
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
@@ -1992,6 +1999,12 @@ footer p {
   margin-bottom: 120px;
 }
 
+@media screen and (max-width: 400px) {
+  .bodyCartaz .artistas .slideArtistas {
+    margin-bottom: 48px;
+  }
+}
+
 .bodyCartaz .artistas .slideArtistas .pop-icon {
   scroll-snap-align: start;
 }
@@ -2000,6 +2013,12 @@ footer p {
   margin-bottom: 120px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+@media screen and (max-width: 720px) {
+  .bodyCartaz .spotify {
+    padding: 0px 48px;
+  }
 }
 
 @media screen and (max-width: 400px) {

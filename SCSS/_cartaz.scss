@@ -170,6 +170,10 @@
             font-family: "Poppins", sans-serif;
             margin-left: 40px;
             padding: 80px 0px;
+            @media screen and (max-width: 400px){
+                padding: 40px 0;
+                font-size: 32px;
+            }
         }
         .slideArtistas{
                 overflow-x: scroll;
@@ -180,6 +184,9 @@
                 grid-auto-flow: column;
                 gap: 10px;
                 margin-bottom: 120px;
+                @media screen and (max-width: 400px){
+                    margin-bottom: 48px;
+                }
                 .pop-icon {
                     scroll-snap-align: start;
                 }
@@ -190,6 +197,9 @@
         margin-bottom: 120px;
         padding-left: 200px;
         padding-right: 200px;
+        @media screen and (max-width: 720px){
+            padding: 0px 48px;
+        }
         @media screen and (max-width: 400px){
             padding-left: 20px;
             padding-right: 20px;
