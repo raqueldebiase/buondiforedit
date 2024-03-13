@@ -1199,8 +1199,6 @@ body {
 @media screen and (max-width: 540px) {
   .bannerNewsletter .app .txtInstala .bold {
     font-size: 24px;
-    margin-top: 68px;
-    margin-left: 40px;
   }
 }
 
@@ -1213,18 +1211,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 150px;
-}
-
-@media screen and (max-width: 720px) {
-  .bannerNewsletter .app .buttonStore {
-    margin: 60px 0 20px 0px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .bannerNewsletter .app .buttonStore {
-    margin: 40px 0 68px 0px;
-  }
 }
 
 .bannerNewsletter .app img {
@@ -1282,9 +1268,9 @@ body {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 540px) {
   .bannerNewsletter .newsletter .bold {
-    margin: 60px 0 0 45px;
+    margin: 80px 0 0 30px;
     font-size: 24px;
     width: 100%;
   }
