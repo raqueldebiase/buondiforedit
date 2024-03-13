@@ -11,7 +11,7 @@
         }
         @media screen and (min-width: 400px){
             .menu {
-                padding: 0px;
+                padding: 15px;
             }
         }
 
@@ -252,7 +252,7 @@
             font-family: "Poppins", sans-serif;
             margin-left: 40px;
             padding: 80px 0px;
-            @media screen and (max-width: 400px){
+            @media screen and (max-width: 620px){
                 padding: 40px 0;
                 font-size: 32px;
             }
@@ -269,11 +269,11 @@
                 .pop-icon {
                     scroll-snap-align: start;
                 }
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 620px){
                     margin-bottom: 48px;
                 }
                 img {
-                    @media screen and (max-width: 400px){
+                    @media screen and (max-width: 620px){
                         width: 80px;
                     }
                 }

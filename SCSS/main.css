@@ -1743,7 +1743,7 @@ footer p {
 
 @media screen and (min-width: 400px) {
   .bodyCartaz .bgHeaderLineUp .menu {
-    padding: 0px;
+    padding: 15px;
   }
 }
 
@@ -2079,7 +2079,7 @@ footer p {
   padding: 80px 0px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 620px) {
   .bodyCartaz .artistas h4 {
     padding: 40px 0;
     font-size: 32px;
@@ -2103,13 +2103,13 @@ footer p {
   scroll-snap-align: start;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 620px) {
   .bodyCartaz .artistas .slideArtistas {
     margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 620px) {
   .bodyCartaz .artistas .slideArtistas img {
     width: 80px;
   }
