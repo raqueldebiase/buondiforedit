@@ -1270,14 +1270,14 @@ body {
 }
 
 .bannerNewsletter .newsletter form .email {
-  width: 440px;
+  width: 75%;
   height: 47px;
   border-radius: 41px;
   border-style: none;
   font-family: "Poppins", sans-serif;
   margin-top: 60px;
   margin-left: 48px;
-  padding-left: 48px;
+  padding-left: 8px;
 }
 
 @media screen and (max-width: 720px) {
