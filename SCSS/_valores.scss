@@ -48,7 +48,7 @@
                 scroll-snap-align: start;
             }
         }
-        @media screen and (max-width: 540px){
+        @media screen and (max-width: 660px){
             overflow-x: scroll;
             scroll-snap-type: x mandatory;
             scroll-padding-left: 40px;

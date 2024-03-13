@@ -861,7 +861,7 @@ body {
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 660px) {
   .valores .cartazesValores {
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
