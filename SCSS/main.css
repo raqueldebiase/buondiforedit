@@ -1735,15 +1735,6 @@ footer p {
   background-position: center center;
 }
 
-@media screen and (max-width: 400px) {
-  .bodyCartaz {
-    background-repeat: no-repeat;
-    background-size: auto 50%;
-    background-position: top center;
-    background-color: #181418;
-  }
-}
-
 @media screen and (min-width: 720px) {
   .bodyCartaz .bgHeaderLineUp .menu {
     padding: 0px;
