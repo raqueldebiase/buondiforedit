@@ -1097,6 +1097,12 @@ body {
   background-color: #181418;
 }
 
+@media screen and (max-width: 720px) {
+  .bannerNewsletter {
+    margin-bottom: 48px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .bannerNewsletter {
     width: 100%;
@@ -1416,11 +1422,22 @@ footer .footerGrid .patrocinadores {
   overflow: hidden;
 }
 
+@media screen and (max-width: 720px) {
+  footer .footerGrid .patrocinadores {
+    padding: 40px;
+    margin-top: 0px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   footer .footerGrid .patrocinadores {
     width: 80%;
     margin-bottom: 40px;
   }
+}
+
+footer .footerGrid .patrocinadores img {
+  width: 100%;
 }
 
 footer .footerGrid .endPraia {
@@ -1454,6 +1471,12 @@ footer .footerGrid .listaFooter ul {
       flex-wrap: wrap;
   gap: 50px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  footer .footerGrid .listaFooter ul {
+    gap: 24px;
+  }
 }
 
 @media screen and (max-width: 400px) {
