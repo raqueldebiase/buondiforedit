@@ -112,97 +112,108 @@
         background-color: #A92227;
         height: 100%;
         width: 100%;
-        .bold{
-            color: white;
-            font-family: "Poppins", sans-serif;
-            font-size: 39px;
-            font-weight: bold;
-            margin-left: 48px;
-            margin-top: 75px;
-            width: 300px;
-            @media screen and (max-width: 720px){
-                margin-left: 30px;
-                margin-top: 145px;
-            } 
+        .content {
             @media screen and (max-width: 540px){
-                margin-top: 80px;
-                font-size: 24px;
-                width: 100%;
+                padding: 0px 24px;
             }
-        } 
-        form{
-            .email{
-                width: 75%;
-                height: 47px;
-                border-radius: 41px;
-                border-style: none;
+            .bold{
+                color: white;
                 font-family: "Poppins", sans-serif;
-                margin-top: 60px;
+                font-size: 39px;
+                font-weight: bold;
                 margin-left: 48px;
-                padding-left: 8px;
-                @media screen and (max-width: 720px){
-                    width: 250px;
-                    margin: 40px 10px 0 30px;
-                    
-                } 
-                @media screen and (max-width: 520px){
-                    width: 300px;
-                    margin: 40px 10px 0 30px;
-                    
-                } 
-            }
-            .condicoes{
-                display: flex;
-                gap: 8px;
-                margin-top: 12px;
-                margin-left: 48px;
-                align-items: center;
+                margin-top: 75px;
+                width: 300px;
                 @media screen and (max-width: 720px){
                     margin-left: 30px;
+                    margin-top: 145px;
+                } 
+                @media screen and (max-width: 540px){
+                    margin-top: 80px;
+                    font-size: 24px;
+                    width: 100%;
+                    margin-left: 0px;
                 }
-                h6{
-                    font-size: 12px;
-                    color: white;
-                    font-family: "Poppins", sans-serif;
-                }
-            }
-        }
-        .buttonSubs{
-            display: flex;
-            justify-content: end;
-            padding-right: 48px;
-            @media screen and (max-width: 720px){
-                justify-content: center;
             } 
-            @media screen and (max-width: 540px){
-                margin-bottom: 68px;
-            }
-
-                a {
-                    background-color: #181418;
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 56px;
-                    align-items: center;
-                    color: #fff;
-                    width: 160px;
+            form{
+                .email{
+                    width: 75%;
                     height: 47px;
                     border-radius: 41px;
                     border-style: none;
                     font-family: "Poppins", sans-serif;
-
+                    margin-top: 60px;
+                    margin-left: 48px;
+                    padding-left: 8px;
+                    @media screen and (max-width: 720px){
+                        width: 250px;
+                        margin: 40px 10px 0 30px;
+                        
+                    } 
+                    @media screen and (max-width: 520px){
+                        width: 300px;
+                        margin-top: 40px;
+                        
+                    } 
                 }
-
-            a{
-                color: white;
-                text-decoration: none;
-                display: grid;
-                place-items: center;
+                .condicoes{
+                    display: flex;
+                    gap: 8px;
+                    margin-top: 12px;
+                    margin-left: 48px;
+                    align-items: center;
+                    @media screen and (max-width: 720px){
+                        margin-left: 30px;
+                    }
+                    @media screen and (max-width: 540px){
+                        margin-left: 0px;
+                    }
+                    h6{
+                        font-size: 12px;
+                        color: white;
+                        font-family: "Poppins", sans-serif;
+                    }
+                }
+            }
+            .buttonSubs{
+                display: flex;
+                justify-content: end;
+                padding-right: 48px;
+                @media screen and (max-width: 720px){
+                    justify-content: center;
+                } 
+                @media screen and (max-width: 540px){
+                    margin-bottom: 68px;
+                    padding-right: 0px;
+                }
+    
+                    a {
+                        background-color: #181418;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 56px;
+                        align-items: center;
+                        color: #fff;
+                        width: 160px;
+                        height: 47px;
+                        border-radius: 41px;
+                        border-style: none;
+                        font-family: "Poppins", sans-serif;
+    
+                    }
+    
+                a{
+                    color: white;
+                    text-decoration: none;
+                    display: grid;
+                    place-items: center;
+                }
+            }
+            .buttonSubs:hover {
+                background-color: rgba(0, 0, 0, 0.267);
             }
         }
-        .buttonSubs:hover {
-            background-color: rgba(0, 0, 0, 0.267);
-        }
+
     }
     
 }
