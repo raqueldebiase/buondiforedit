@@ -1739,6 +1739,10 @@ footer p {
   }
 }
 
+.bodyCartaz .bannerPrincipal {
+  display: none;
+}
+
 .bodyCartaz .bannerPrincipal .sociaisVertical {
   display: -webkit-box;
   display: -ms-flexbox;
