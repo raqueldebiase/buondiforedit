@@ -49,6 +49,19 @@
                 scroll-snap-align: start;
             }
         }
+        @media screen and (max-width: 540px){
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-padding-left: 40px;
+            padding: 20px 0px 0px 40px;
+            display: grid;
+            width: 100%;
+            grid-auto-flow: column;
+            gap: 10px;
+            .pop-icon {
+                scroll-snap-align: start;
+            }
+        }
 
     }
     // .cartazesValores{

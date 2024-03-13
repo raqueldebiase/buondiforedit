@@ -47,7 +47,9 @@ footer{
                 overflow: hidden;
                 @media screen and (max-width: 720px){
                     gap: 24px;
+                    justify-content: center;
                 }
+
                 @media screen and (max-width: 400px){
                     width: 100%;
                     display: grid;

@@ -862,6 +862,24 @@ body {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .valores .cartazesValores {
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    scroll-padding-left: 40px;
+    padding: 20px 0px 0px 40px;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+    gap: 10px;
+  }
+  .valores .cartazesValores .pop-icon {
+    scroll-snap-align: start;
+  }
+}
+
 .noticias {
   overflow: hidden;
   display: none;
@@ -1499,6 +1517,9 @@ footer .footerGrid .listaFooter ul {
 @media screen and (max-width: 720px) {
   footer .footerGrid .listaFooter ul {
     gap: 24px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
