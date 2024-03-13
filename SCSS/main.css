@@ -190,7 +190,6 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 20px;
 }
 
 @media screen and (max-width: 620px) {
@@ -229,8 +228,11 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   line-height: 30px;
-  margin: 0 20px 40px -100px;
   text-align: right;
+}
+
+.listaDisplayNone ul li .cartaz-link {
+  cursor: pointer;
 }
 
 .listaDisplayNone a {
