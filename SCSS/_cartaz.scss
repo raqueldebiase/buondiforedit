@@ -184,11 +184,16 @@
                 grid-auto-flow: column;
                 gap: 10px;
                 margin-bottom: 120px;
+                .pop-icon {
+                    scroll-snap-align: start;
+                }
                 @media screen and (max-width: 400px){
                     margin-bottom: 48px;
                 }
-                .pop-icon {
-                    scroll-snap-align: start;
+                img {
+                    @media screen and (max-width: 400px){
+                        width: 80px;
+                    }
                 }
         }
     }

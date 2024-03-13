@@ -1999,14 +1999,20 @@ footer p {
   margin-bottom: 120px;
 }
 
+.bodyCartaz .artistas .slideArtistas .pop-icon {
+  scroll-snap-align: start;
+}
+
 @media screen and (max-width: 400px) {
   .bodyCartaz .artistas .slideArtistas {
     margin-bottom: 48px;
   }
 }
 
-.bodyCartaz .artistas .slideArtistas .pop-icon {
-  scroll-snap-align: start;
+@media screen and (max-width: 400px) {
+  .bodyCartaz .artistas .slideArtistas img {
+    width: 80px;
+  }
 }
 
 .bodyCartaz .spotify {
