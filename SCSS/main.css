@@ -1472,7 +1472,7 @@ body {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    margin-top: 100px;
+    margin-top: 24px;
   }
 }
 
@@ -1565,10 +1565,10 @@ footer .footerGrid .listaFooter ul {
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     margin-top: 50px;
-    gap: 10px;
+    gap: 20px;
     overflow: hidden;
   }
 }
