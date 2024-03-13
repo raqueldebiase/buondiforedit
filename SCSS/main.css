@@ -1123,6 +1123,7 @@ body {
   .tituloNovidades h3 {
     font-size: 48px;
     width: 100%;
+    margin-left: 0;
   }
 }
 
