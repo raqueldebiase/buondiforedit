@@ -183,6 +183,12 @@ body {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 400px) {
+  .menu .menuHamburguer {
+    padding-right: 8px;
+  }
+}
+
 .menu .menuHamburguer a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,6 +196,12 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media screen and (min-width: 400px) {
+  .menu .menuHamburguer a img {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -229,6 +241,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 30px;
   text-align: right;
+  padding-right: 8px;
 }
 
 .listaDisplayNone ul li .cartaz-link {
