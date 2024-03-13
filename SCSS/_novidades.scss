@@ -171,11 +171,12 @@
         }
         .buttonSubs{
             display: flex;
-            justify-content: center;
+            justify-content: end;
+
                 a {
                     background-color: #181418;
                     display: flex;
-                    justify-content: end;
+                    justify-content: center;
                     margin-top: 24px;
                     align-items: center;
                     color: #fff;
