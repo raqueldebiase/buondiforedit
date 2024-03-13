@@ -1104,6 +1104,12 @@ body {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .tituloNovidades {
+    padding: 0px 48px;
+  }
+}
+
 .tituloNovidades h3 {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -1113,10 +1119,16 @@ body {
   margin-top: 48px;
 }
 
+@media screen and (max-width: 720px) {
+  .tituloNovidades h3 {
+    font-size: 48px;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .tituloNovidades h3 {
     font-size: 40px;
-    margin-left: 48px;
   }
 }
 
