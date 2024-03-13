@@ -1733,6 +1733,18 @@ footer p {
   background-image: url(/imagens/BG/bg_cartaz.png);
 }
 
+@media screen and (min-width: 720px) {
+  .bodyCartaz .bgHeaderLineUp .menu {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .bodyCartaz .bgHeaderLineUp .menu {
+    padding: 0px;
+  }
+}
+
 @media screen and (min-width: 400px) {
   .bodyCartaz .bgHeaderLineUp .menuHamburguer {
     padding-right: 8px;

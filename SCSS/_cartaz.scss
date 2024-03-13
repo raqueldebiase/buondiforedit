@@ -1,7 +1,17 @@
 .bodyCartaz{
     background-image: url(/imagens/BG/bg_cartaz.png);
     .bgHeaderLineUp{
-        
+        @media screen and (min-width: 720px){
+            .menu {
+                padding: 0px;
+            }
+        }
+        @media screen and (min-width: 400px){
+            .menu {
+                padding: 0px;
+            }
+        }
+
         .menuHamburguer{
             @media screen and (min-width: 400px){
                 padding-right: 8px;
