@@ -1150,7 +1150,13 @@ body {
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 720px) {
+  .bannerNewsletter {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 660px) {
   .bannerNewsletter {
     width: 100%;
     display: -ms-grid;
