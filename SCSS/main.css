@@ -1251,6 +1251,7 @@ body {
 @media screen and (max-width: 720px) {
   .bannerNewsletter .newsletter .bold {
     margin-left: 30px;
+    margin-top: 145px;
   }
 }
 
@@ -1275,7 +1276,7 @@ body {
 
 @media screen and (max-width: 720px) {
   .bannerNewsletter .newsletter form .email {
-    width: 300px;
+    width: 250px;
     margin: 40px 10px 0 30px;
   }
 }
@@ -1299,9 +1300,9 @@ body {
           align-items: center;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
   .bannerNewsletter .newsletter form .condicoes {
-    margin-left: 40px;
+    margin-left: 30px;
   }
 }
 
@@ -1319,6 +1320,20 @@ body {
       -ms-flex-pack: end;
           justify-content: end;
   padding-right: 48px;
+}
+
+@media screen and (max-width: 720px) {
+  .bannerNewsletter .newsletter .buttonSubs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .bannerNewsletter .newsletter .buttonSubs {
+    margin-left: 120px;
+  }
 }
 
 .bannerNewsletter .newsletter .buttonSubs a {
@@ -1339,18 +1354,6 @@ body {
   border-radius: 41px;
   border-style: none;
   font-family: "Poppins", sans-serif;
-}
-
-@media screen and (max-width: 720px) {
-  .bannerNewsletter .newsletter .buttonSubs {
-    margin-left: 120px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .bannerNewsletter .newsletter .buttonSubs {
-    margin-left: 120px;
-  }
 }
 
 .bannerNewsletter .newsletter .buttonSubs a {
