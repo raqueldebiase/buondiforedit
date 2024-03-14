@@ -963,7 +963,6 @@ body {
   background-color: #ED1C24;
   width: 100%;
   height: 100%;
-  width: 75%;
 }
 @media screen and (max-width: 520px) {
   .bannerNewsletter .app {
@@ -974,6 +973,7 @@ body {
 }
 .bannerNewsletter .app .app-left {
   padding: 24px;
+  width: 75%;
 }
 .bannerNewsletter .app .txtInstala {
   width: 300px;
