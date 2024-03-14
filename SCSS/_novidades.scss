@@ -53,12 +53,14 @@
         }
         .app-left {
             padding: 24px;
-            width: 75%;
+            width: 65%;
             position: relative;
         }
         .app-left::after {
             position: absolute;
             content: url('../imagens/novidades/celular.png');
+            top: -45px;
+            right: -84px;
         }
         .txtInstala{
             width: 300px;

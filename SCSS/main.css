@@ -973,12 +973,14 @@ body {
 }
 .bannerNewsletter .app .app-left {
   padding: 24px;
-  width: 75%;
+  width: 65%;
   position: relative;
 }
 .bannerNewsletter .app .app-left::after {
   position: absolute;
   content: url("../imagens/novidades/celular.png");
+  top: -45px;
+  right: -84px;
 }
 .bannerNewsletter .app .txtInstala {
   width: 300px;
