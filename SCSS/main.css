@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -973,14 +974,63 @@ body {
 }
 .bannerNewsletter .app .app-left {
   padding: 24px;
-  width: 65%;
+  width: 50%;
   position: relative;
 }
 .bannerNewsletter .app .app-left::after {
   position: absolute;
   content: url("../imagens/novidades/celular.png");
   top: -45px;
-  right: -84px;
+  right: -230px;
+  width: 131px; /* Defina o tamanho original da imagem */
+  max-width: 81%;
+  height: 100px; /* Defina o tamanho original da imagem */
+  display: inline-block; /* Garante que a transformação funcione corretamente */
+}
+@media screen and (max-width: 1046px) {
+  .bannerNewsletter .app .app-left::after {
+    top: -45px;
+    right: -110px;
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 800px) {
+  .bannerNewsletter .app .app-left::after {
+    top: 210px;
+    right: -110px;
+    transform: scale(0.6);
+  }
+}
+@media screen and (max-width: 720px) {
+  .bannerNewsletter .app .app-left::after {
+    top: 45px;
+    right: -80px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .bannerNewsletter .app .app-left::after {
+    top: -45px;
+    right: -50px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .bannerNewsletter .app .app-left::after {
+    top: -45px;
+    right: -200px;
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 480px) {
+  .bannerNewsletter .app .app-left::after {
+    top: -45px;
+    right: -150px;
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 360px) {
+  .bannerNewsletter .app .app-left::after {
+    transform: scale(0.5);
+  }
 }
 .bannerNewsletter .app .txtInstala {
   width: 300px;
