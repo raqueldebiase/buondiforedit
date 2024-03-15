@@ -149,6 +149,9 @@ body {
   width: 44.57px;
   height: 44.57px;
 }
+.menu .menuPrincipal ul li a:visited {
+  color: #fff;
+}
 .menu .menuPrincipal span {
   color: white;
   width: 25.68px;
