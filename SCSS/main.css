@@ -987,6 +987,13 @@ body {
   height: 100px; /* Defina o tamanho original da imagem */
   display: inline-block; /* Garante que a transformação funcione corretamente */
 }
+@media screen and (max-width: 1580px) {
+  .bannerNewsletter .app .app-left::after {
+    top: -45px;
+    right: -110px;
+    transform: scale(0.8);
+  }
+}
 @media screen and (max-width: 1046px) {
   .bannerNewsletter .app .app-left::after {
     top: -45px;
@@ -994,7 +1001,7 @@ body {
     transform: scale(0.8);
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .bannerNewsletter .app .app-left::after {
     top: 210px;
     right: -110px;
@@ -1011,6 +1018,7 @@ body {
   .bannerNewsletter .app .app-left::after {
     top: -45px;
     right: -50px;
+    transform: scale(1);
   }
 }
 @media screen and (max-width: 520px) {
@@ -1027,7 +1035,7 @@ body {
     transform: scale(0.8);
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .bannerNewsletter .app .app-left::after {
     transform: scale(0.5);
   }

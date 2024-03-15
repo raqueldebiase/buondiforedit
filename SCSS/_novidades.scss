@@ -65,14 +65,18 @@
             max-width: 81%;
             height: 100px; /* Defina o tamanho original da imagem */
             display: inline-block; /* Garante que a transformação funcione corretamente */
-        
+            @media screen and (max-width: 1580px) {
+                top: -45px;
+                right: -110px;
+                transform: scale(0.8);
+            }
             @media screen and (max-width: 1046px) {
                 top: -45px;
                 right: -110px;
                 transform: scale(0.8);
             }
-        
-            @media screen and (max-width: 800px) {
+
+            @media screen and (max-width: 950px) {
                 top: 210px;
                 right: -110px;
                 transform: scale(0.6);
@@ -86,6 +90,7 @@
             @media screen and (max-width: 660px) {
                 top: -45px;
                 right: -50px;
+                transform: scale(1.0);
             }
         
             @media screen and (max-width: 520px) {
@@ -100,7 +105,7 @@
                 transform: scale(0.8);
             }
         
-            @media screen and (max-width: 360px) {
+            @media screen and (max-width: 400px) {
                 transform: scale(0.5);
             }
         }
