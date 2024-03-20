@@ -1,20 +1,20 @@
 # Projeto360
 Projeto 360/EDIT/Buondi
 
-Projeto final do curso de Front-End Dev. para o cliente Nestlè/Buondi, feito em conjunto com as turmas de UI/UX e Marketing da escola Edit. - disruptive digital education.
+Projeto final do curso de Front-End Dev. para o cliente Nestlè/Buondi, feito em conjunto com as equipes de UI/UX e Marketing da escola Edit. - Disruptive Digital Education.
 
-Para desenvolver esse projeto, eu utilizei as seguintes tecnologias:
+Para desenvolver esse projeto, utilizei as seguintes ferramentas e tecnologias:
 HTML;
 SASS/CSS;
 Javascript/jQuery;
 Figma;
 Miro.
 
-Conhecimento adquirido:
-Durante o devenvolvimento do supracitado projeto, pude aprofundar as práticas de uso do jQuery, com a utilização de plugins, assim como do Javascript. Pude, também, aperfeiçoar e aprender ainda mais sobre responsividade, tendo em vista que o projeto foi apresentado 100% em mobile para a banca e demais pessoas que acompanhavam a apresentação. 
+Conhecimentos adquiridos:
+Durante o devenvolvimento deste importante projeto, pude aprofundar as práticas de uso do jQuery, utilização de plugins, assim como do Javascript. Pude também aperfeiçoar e aprender ainda mais sobre responsividade, tendo em vista que o projeto foi apresentado 100% em mobile para a banca e demais pessoas que acompanhavam a apresentação. 
 
 Desafios:
-Trabalhar em uma equipe multidisciplinar para um cliente real ainda no ambiente escolar em um curto prazo de cinco dias como única desenvolvedora da equipe. 
+Trabalhar em uma equipe multidisciplinar para um cliente real, em um curto prazo de cinco dias como única desenvolvedora da equipe. 
 
 
 Link:
