@@ -18,7 +18,7 @@ Trabalhar em uma equipe multidisciplinar para um cliente real ainda no ambiente 
 
 
 Link:
-https://nervous-kepler-29116d.netlify.app/
+https://buondiforedit360.netlify.app
 
 <img width="1419" alt="Captura de Tela 2022-04-24 às 09 00 10" src="https://user-images.githubusercontent.com/94414829/164966496-b01a8ca9-5c00-497c-b3d8-062c71169ad5.png">
 
